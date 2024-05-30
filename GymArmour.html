@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TASK 1</title>
+  <link rel=stylesheet href="t1.css">
+  <style>
+    /* Reset CSS */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body /* Overall this text will be followed */
+    {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    </style>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="#"><img src="logo.webp" alt="logo" width="50" height="30"></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="search-form">
+          <img src="search.jpg" alt="search" class="search-logo" id="searchLogo">
+          <input type="text" class="search-input" id="searchInput" placeholder="Type here...">
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <script>
+    const searchLogo = document.getElementById('searchLogo');
+    const searchInput = document.getElementById('searchInput');
+
+    searchLogo.addEventListener('click', function() {
+      searchInput.style.display = 'block'; // Show the search input when clicked
+      searchInput.focus(); // Focus on the input field for typing
+    });
+  </script>
+
+  <header>
+    <div class="l">
+      <h1>GYM ARMOUR</h1>
+      <img src="logo.webp" alt="logo" width="200" height="100">
+    </div>
+  </header>
+<main>
+  <div class="main">
+    <section class="hero-section">
+      <a href="#" class="cta-button">Shop Now</a>
+      <img src="8.jpeg" alt="intro" width="2000" height="1200">
+    </section>
+  </div>
+  <div class="off">
+  <img src="off.png" alt="sale" width="250" height="150">
+  </div>
+  <div class="flex-container">
+    <div class="item">
+      <img src="s1.png" alt="Clothing 1">
+      <div class="item-info">
+        <h3>FURY TEE WHITE</h3>
+        <p>Maximum performance is guaranteed!</p>
+        <span class="price">$20</span>
+        <button class="order-button">Order Now</button>
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+          <span class="star">&#9734;</span>
+        </div>
+      </div>
+    </div>
+    <!-- Item 2 -->
+    <div class="item">
+      <img src="s2.png" alt="Clothing 2">
+      <div class="item-info">
+        <h3>FURY TEE BLACK</h3>
+        <p>Maximum performance is guaranteed!</p>
+        <span class="price">$25</span>
+        <button class="order-button">Order Now</button>
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+          <span class="star">&#9734;</span>
+        </div>
+      </div>
+    </div>
+    <!-- Item 3 -->
+    <div class="item">
+      <img src="s3.png" alt="Clothing 3">
+      <div class="item-info">
+        <h3>OVERSIZED GREEN</h3>
+        <p>Maximum performance is guaranteed!</p>
+        <span class="price">$30</span>
+        <button class="order-button">Order Now</button>
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+          <span class="star">&#9734;</span>
+        </div>
+      </div>
+    </div>
+    <!-- Item 4 -->
+    <div class="item">
+      <img src="s4.png" alt="Clothing 4">
+      <div class="item-info">
+        <h3>OVERSIZED BLACK</h3>
+        <p>Maximum performance is guaranteed!</p>
+        <span class="price">$35</span>
+        <button class="order-button">Order Now</button>
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+          <span class="star">&#9734;</span>
+        </div>
+      </div>
+    </div>
+    <!-- Item 5 -->
+    <div class="item">
+      <img src="s5.png" alt="Clothing 5">
+      <div class="item-info">
+        <h3>ZYPHER GREY</h3>
+        <p>Maximum performance is guaranteed!</p>
+        <span class="price">$40</span>
+        <button class="order-button">Order Now</button>
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+          <span class="star">&#9734;</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-description">
+        <h3>About Us</h3>
+        <p>We provide high-quality gym clothing for fitness enthusiasts. Find the perfect workout gear to elevate your fitness journey.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy;GYM ARMOUR. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
